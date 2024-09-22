@@ -1,0 +1,11 @@
+@import './fonts.css';
+@import './styles/global.css';
+
+body {
+    font-family: 'Figtree', sans-serif;
+    background-color: var(--color-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}

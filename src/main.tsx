@@ -1,6 +1,14 @@
 import { createRoot } from 'react-dom/client';
-import App from './App.tsx';
-import './reset.css';
-import './index.css';
+import './styles/reset.css';
+import './styles/global.css';
+import Card from './components/Card/Card';
+
+export default function App() {
+  return (
+    <main>
+      <Card />
+    </main>
+  );
+}
 
 createRoot(document.getElementById('root')!).render(<App />);

@@ -3,7 +3,7 @@
 This is a solution to the [Blog preview card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blog-preview-card-ckPaj01IcS).
 
 ## Links
-- Live Site URL: [here](https://ronaldyonggi.github.io/blog-preview-card-fementor/)
+[Live Site URL](https://ronaldyonggi.github.io/blog-preview-card-fm/)
 
 ## Built with:
 

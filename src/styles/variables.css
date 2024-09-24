@@ -1,0 +1,12 @@
+:root {
+  /* Colors */
+  --color-white: hsl(0, 0%, 100%);
+  --color-gray500: hsl(0, 0%, 42%);
+  --color-gray950: hsl(0, 0%, 7%);
+  --color-yellow: hsl(47, 88%, 63%);
+
+  --font-size-paragraph: 16px;
+
+  --font-weight-medium: 500;
+  --font-weight-bold: 800;
+}

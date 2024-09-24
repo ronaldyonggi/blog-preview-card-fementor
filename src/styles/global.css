@@ -1,11 +1,17 @@
-:root {
-    --color-white: hsl(0, 0%, 100%);
-    --color-gray500: hsl(0, 0%, 42%);
-    --color-gray950: hsl(0, 0%, 7%);
-    --color-yellow: hsl(47, 88%, 63%);
+@import './fonts.css';
+@import '../styles/variables.css';
 
-    --font-size-paragraph: 16px;
-    
-    --font-weight-medium: 500;
-    --font-weight-bold: 800;
+body {
+  font-family: 'Figtree', sans-serif;
+  background-color: var(--color-yellow);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    padding: 20px;
+  }
 }
